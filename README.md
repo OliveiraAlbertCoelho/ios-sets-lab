@@ -12,7 +12,7 @@ Input: heights of trees below:
 
 Output:
 `169.375`
-```
+```swift
 var botanyArray = [161 ,182, 161, 154, 176, 170 ,167, 171, 170, 174]
 var uniqueBotany = Set(botanyArray)
 var average = 0
@@ -29,7 +29,7 @@ Determine if a String is a pangram. A pangram is a string that contains every le
 
 e.g `"The quick brown fox jumps over the lazy dog"` is a pangram
 e.g `"The quick brown fox jumped over the lazy dog"` is NOT a pangram
-```
+```swift
 var wordCheck = "The quick brown fox jumps over the lazy dog"
 var alphabet = "abcdefghijklmnopqrstuvwxyz"
 var newArray = [Character]()
